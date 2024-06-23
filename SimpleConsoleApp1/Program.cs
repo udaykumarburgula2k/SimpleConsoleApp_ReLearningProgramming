@@ -14,7 +14,9 @@ namespace SimpleConsoleApp
             // Calculator +, -, *, %
             // Mathmatical Tables : 7 * 1 = 7 to 7 * 20 = 140
 
-            SumOfDigitsForGivenNumber.CalculateSumOfDigits();
+            // SumOfDigitsForGivenNumber.CalculateSumOfDigits();
+            // Swap2NumberWithThirdNumber.DoSwap2NumberWithThirdNumber();
+            // Swap2NumberWithThirdNumber.DoSwap2NumberWithoutThirdNumber();
         }
     }
 }
