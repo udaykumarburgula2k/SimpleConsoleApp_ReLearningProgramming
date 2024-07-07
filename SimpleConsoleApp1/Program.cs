@@ -56,10 +56,11 @@ namespace SimpleConsoleApp
             // BigO_Iteration.timeComplexityPrintUnorderedPairs(array);
             // BigO_Iteration.timeComplexityPrintUnorderedPairs2Array(array);
             // BigO_Iteration.timeComplexityPrintUnorderedPairs2Array1kUnitOfWork(array);
-            
+
             // int[] array = { 1, 5, 3, 4, 8, 2, 14, 9};
             // BigO_Iteration.reverseOfIntArray(array);
-
+            // PrimeNumber.IsPrimeNumber(43);
+            // PrimeNumber.IsPrimeNumber(12932);
 
             Console.WriteLine("Execution Done!!");
         }
