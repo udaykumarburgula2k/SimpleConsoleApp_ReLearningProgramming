@@ -42,6 +42,25 @@ namespace SimpleConsoleApp
                 }
              */
 
+            /*
+             Amortized Array 
+             ArrayList dynamically resizing array. is implemented with a array.
+             when array hits the capacity, the ArrayList class will create a new array with the 
+             double the capacity and copy all the elements. 
+             time required to insert is amortized/not considered as it does not happen often. 
+             */
+
+            // int[] array = { 1, 5, 3};
+            // BigO_Iteration.timeComplexitySumProduct(array);
+            // BigO_Iteration.timeComplexityPrintPairs(array);
+            // BigO_Iteration.timeComplexityPrintUnorderedPairs(array);
+            // BigO_Iteration.timeComplexityPrintUnorderedPairs2Array(array);
+            // BigO_Iteration.timeComplexityPrintUnorderedPairs2Array1kUnitOfWork(array);
+            
+            // int[] array = { 1, 5, 3, 4, 8, 2, 14, 9};
+            // BigO_Iteration.reverseOfIntArray(array);
+
+
             Console.WriteLine("Execution Done!!");
         }
     }
