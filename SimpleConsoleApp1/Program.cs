@@ -26,7 +26,7 @@ namespace SimpleConsoleApp
             //BigO_SpaceComplexity.dropTheConstantsFineTune(60);
 
             // Multipart Algorithms: Add vs Multiply 
-            /* 
+            /* For calculating time and space complexity
              * // (A) do this, when all done, do that = Add the runtimes
                 for(int a: arrA){
                     print(a);
