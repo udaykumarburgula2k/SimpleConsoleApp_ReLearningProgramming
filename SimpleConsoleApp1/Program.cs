@@ -59,8 +59,8 @@ namespace SimpleConsoleApp
 
             // int[] array = { 1, 5, 3, 4, 8, 2, 14, 9};
             // BigO_Iteration.reverseOfIntArray(array);
-            // PrimeNumber.IsPrimeNumber(43);
-            // PrimeNumber.IsPrimeNumber(12932);
+            //PrimeNumber.IsPrimeNumber(43);
+            //PrimeNumber.IsPrimeNumber(12932);
 
             // Sum of n Numbers
             //Console.WriteLine("Sum"+ SumofNItemNumbers.nNumber_SumOfNumbers(10));
@@ -73,12 +73,13 @@ namespace SimpleConsoleApp
 
             // CountDigits
             // Console.WriteLine("Count of digits in a given number: 3121012 is " + CountDigits.nNumber_CountDigitsInNumber(3121012));
-            Console.WriteLine("Bitwise operation AND:" + BitwiseOperator.nNumber_Bitwise_AND(3,5));
-            Console.WriteLine("-----------");
-            Console.WriteLine("Bitwise operation OR:" + BitwiseOperator.nNumber_Bitwise_OR(3, 5));
-            Console.WriteLine("-----------");
-            Console.WriteLine("Bitwise operation XOR:" + BitwiseOperator.nNumber_Bitwise_XOR(3, 5));
-            Console.WriteLine("-----------");
+            //Console.WriteLine("Bitwise operation AND:" + BitwiseOperator.nNumber_Bitwise_AND(3,5));
+            //Console.WriteLine("-----------");
+            //Console.WriteLine("Bitwise operation OR:" + BitwiseOperator.nNumber_Bitwise_OR(3, 5));
+            //Console.WriteLine("-----------");
+            //Console.WriteLine("Bitwise operation XOR:" + BitwiseOperator.nNumber_Bitwise_XOR(3, 5));
+            //Console.WriteLine("-----------");
+
             Console.WriteLine("Execution Done!!");
         }
     }
