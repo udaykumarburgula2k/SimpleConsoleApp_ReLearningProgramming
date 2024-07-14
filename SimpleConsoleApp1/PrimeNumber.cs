@@ -15,6 +15,22 @@ namespace SimpleConsoleApp
             if (givenNumber == 2 || givenNumber == 3) return true;
             if (givenNumber%2 == 0 || givenNumber % 3 == 0) return false;
             
+            for (int i = 5; i * i < givenNumber; i= i +6)  
+            {
+                if(givenNumber % i == 0 || givenNumber%(i+2) == 0) 
+                {   
+                    Console.WriteLine(givenNumber +" is not Prime Number!!");
+                    return false;
+                }
+            }
+
+            Console.WriteLine(givenNumber + " is a Prime Number!!");
+            return true;
+
+            /*
+            Prime number : divisible by 1 and itself only.
+            2,3,7,9..
+           */
 
             // IDEA #1
             // for (int i = 2; i < givenNumber; i++) // TC: O(n-2)
@@ -34,24 +50,13 @@ namespace SimpleConsoleApp
 
             for (int i = 2; i * i < givenNumber; i++)   O(sqrt(n))
 
-            IDEA #3
+            IDEA #3 --->> 1/3 of 1st solution.
             By checking i%2 =0, then not a prime number
             By checking i%3=0, then not a prime number
 
             n = 121  --> i = 5, 11
             n = 1031 --> i = 5, 11, 17, 23, 29 note: 35*35 = 1225 > 1031. 
              */
-
-            for (int i = 5; i * i < givenNumber; i= i +6)  
-            {
-                if(givenNumber % i == 0 || givenNumber%(i+2) == 0) 
-                {   
-                    Console.WriteLine(givenNumber +" is not Prime Number!!");
-                    return false;
-                }
-            }
-            Console.WriteLine(givenNumber + " is a Prime Number!!");
-            return true;
         }
     }
 }

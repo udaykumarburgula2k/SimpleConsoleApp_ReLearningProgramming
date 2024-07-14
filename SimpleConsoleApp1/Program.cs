@@ -80,6 +80,10 @@ namespace SimpleConsoleApp
             //Console.WriteLine("Bitwise operation XOR:" + BitwiseOperator.nNumber_Bitwise_XOR(3, 5));
             //Console.WriteLine("-----------");
 
+            Console.WriteLine("Greatest common divisor");
+            Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD(10, 15));
+            Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD2(10, 15));
+            Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD3(10, 15));
             Console.WriteLine("Execution Done!!");
         }
     }
