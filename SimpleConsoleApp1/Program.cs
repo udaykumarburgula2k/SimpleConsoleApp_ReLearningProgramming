@@ -80,10 +80,21 @@ namespace SimpleConsoleApp
             //Console.WriteLine("Bitwise operation XOR:" + BitwiseOperator.nNumber_Bitwise_XOR(3, 5));
             //Console.WriteLine("-----------");
 
-            Console.WriteLine("Greatest common divisor");
-            Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD(10, 15));
-            Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD2(10, 15));
-            Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD3(10, 15));
+            // GCD
+            //Console.WriteLine("Greatest common divisor");
+            //Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD(10, 15));
+            //Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD2(10, 15));
+            //Console.WriteLine("Greatest common divisor" + GreatestCommonDivisor.Calculate_GCD3(10, 15));
+
+            // Recursion
+            // Console.WriteLine("Calling RecursionProgram#1!!");
+            // RecursionProgram1.fromMain();
+            // RecursionProgram1.generateStackOverflowError();
+            // RecursionProgram1.RecursiveBasicFunction2(10);
+            // RecursionProgram1.RecursiveBasicFunction3(3);
+            //Console.WriteLine("Calling RecursionProgram#1 - Part2!!");
+            // RecursionPart2.RecursiveBasicFunction4(16);
+            
             Console.WriteLine("Execution Done!!");
         }
     }
