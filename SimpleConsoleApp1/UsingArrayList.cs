@@ -23,6 +23,7 @@ namespace SimpleConsoleApp
             personList.Add("Teresa");
             personList.Add("Praveen");
             personList.Add("Sandeep");
+            personList.Add("Raju");
             personList.Add("Uday");
             personList.Add("Krishna");
             personList.Add("Sudheer");
@@ -36,7 +37,7 @@ namespace SimpleConsoleApp
             }
             // Modify List
             personList.Insert(1, "John");
-            Console.WriteLine("=====Modify List======"+ "added John");
+            Console.WriteLine("=====Modify List======" + "added John");
             for (int i = 0; i < personList.Count; i++)
             {
                 string arrayItem = string.Format($"Name  is {personList[i]}");
@@ -44,7 +45,7 @@ namespace SimpleConsoleApp
             }
             //remove first item from person list using index
             personList.Remove("Samar");
-            Console.WriteLine("=====Modified List======"+ "removed Samar");
+            Console.WriteLine("=====Modified List======" + "removed Samar");
             for (int i = 0; i < personList.Count; i++)
             {
                 string arrayItem = string.Format($"Name  is {personList[i]}");
@@ -75,5 +76,44 @@ namespace SimpleConsoleApp
             Console.WriteLine(string.Format($"Total Number Of Items in ArrayList: {totalItems}"));
             return resultList;
         }
+
+        public static ArrayList BasicSearchOperationOnArrayList(string givenSearchNameValue)
+        {
+            ArrayList personList = new ArrayList();
+            personList.Add("Moses");
+            personList.Add("Mandela");
+            personList.Add("Job");
+            personList.Add("Kapil");
+            personList.Add("Teresa");
+            personList.Add("Praveen");
+            personList.Add("Sandeep");
+            personList.Add("Uday");
+            personList.Add("Krishna");
+            personList.Add("Sudheer");
+            personList.Add("Dhoni");
+            personList.Add("Raju");
+            personList.Add("Samar");
+
+            int indexOfName = 0;
+            bool notFound = true;
+            foreach (var item in personList)
+            {
+                if (givenSearchNameValue != null && item != null)
+                {
+                    if (item.ToString() == givenSearchNameValue)
+                    {
+                        notFound = false;
+                        Console.WriteLine("givenSearchNameValue:" + givenSearchNameValue + " IS AT INDEX" + indexOfName);
+                    }
+                    indexOfName++;
+                }
+                if ((personList.Count - 1) == indexOfName && notFound) 
+                {
+                    Console.WriteLine("Given Name '"+ givenSearchNameValue +"' not found!!");
+                }
+            }
+            return personList;
+        }
+
     }
 }
