@@ -94,7 +94,9 @@ namespace SimpleConsoleApp
             // RecursionProgram1.RecursiveBasicFunction3(3);
             //Console.WriteLine("Calling RecursionProgram#1 - Part2!!");
             // RecursionPart2.RecursiveBasicFunction4(16);
-            
+
+            UsingArrayList.BasicOperationOnArrayList();
+
             Console.WriteLine("Execution Done!!");
         }
     }
