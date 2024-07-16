@@ -1,1 +1,1 @@
-Learning the basic algorithm, GFG, leet code and DSA.
+Learning the basic algorithm, GeekForGeeks, leet code and Datastructue and Algorithm.
