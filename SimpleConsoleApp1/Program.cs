@@ -102,14 +102,29 @@ namespace SimpleConsoleApp
             //
             //UsingArrayList.BasicSearchOperationOnArrayList("Kumar");
 
-            //int[] array = { 1, 5, 3, 15, 21 };
+            //int[] array = { 1, 5, 3, 15, _ };
             //int searchElement1 = 5;
             //int searchElement2 = 99;
             //Console.WriteLine("Found element "+ searchElement1 + " at index:"+ UsingArrayList.BasicSearchOperationOnIntArrayList(array,5, searchElement1));
             //Console.WriteLine("Found element " + searchElement2 + " at index:" + UsingArrayList.BasicSearchOperationOnIntArrayList(array, 5, searchElement2));
+
+            //int[] array = new int[5];
+            //array[0] = 1;
+            //array[1] = 5;
+            //array[2] = 3;
+            //array[3] = 15;
+            //array[4] = 0;
+            //int arrayLength = array.Length;
+            //int insertElement = 99, insertPosition = 2;
+            //Console.WriteLine("Insert element " + 
+            //    UsingArrayList.BasicInsertArrayItemInList(array, arrayLength, insertElement, insertPosition));
             
 
-            
+            //int[] array = { 1, 5, 3, 15, 2 };
+            //int deleteItem = 5;
+            //Console.WriteLine("completed operation try deleted element at index#" +
+            //    UsingArrayList.deleteGivenItemOperationOnArray(array, deleteItem));
+
             Console.WriteLine("Execution Done!!");
         }
     }
