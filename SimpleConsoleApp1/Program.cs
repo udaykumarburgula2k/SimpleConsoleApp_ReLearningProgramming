@@ -99,10 +99,17 @@ namespace SimpleConsoleApp
             //Console.WriteLine("Search name 'Raju' ");
             //UsingArrayList.BasicSearchOperationOnArrayList("Raju");
             //Console.WriteLine("Search name 'Kumar' ");
+            //
             //UsingArrayList.BasicSearchOperationOnArrayList("Kumar");
 
+            //int[] array = { 1, 5, 3, 15, 21 };
+            //int searchElement1 = 5;
+            //int searchElement2 = 99;
+            //Console.WriteLine("Found element "+ searchElement1 + " at index:"+ UsingArrayList.BasicSearchOperationOnIntArrayList(array,5, searchElement1));
+            //Console.WriteLine("Found element " + searchElement2 + " at index:" + UsingArrayList.BasicSearchOperationOnIntArrayList(array, 5, searchElement2));
+            
 
-
+            
             Console.WriteLine("Execution Done!!");
         }
     }

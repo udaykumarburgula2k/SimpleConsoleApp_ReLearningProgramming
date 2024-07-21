@@ -77,6 +77,17 @@ namespace SimpleConsoleApp
             return resultList;
         }
 
+
+        /// <summary>
+        /// BasicSearchOperationOnArrayList
+        /// ex #1 i/p   arr[] = { 20, 5 , 7 , 25}  search item x = 5   O/p : 1 (index of 5)
+        /// ex #2  x =15 o/p : -1 (when element not found)
+        /// 
+        /// Time complexity TC : O(n) 
+        /// Space Complexity SC : constant
+        /// </summary>
+        /// <param name="givenSearchNameValue"></param>
+        /// <returns></returns>
         public static ArrayList BasicSearchOperationOnArrayList(string givenSearchNameValue)
         {
             ArrayList personList = new ArrayList();
@@ -113,6 +124,35 @@ namespace SimpleConsoleApp
                 }
             }
             return personList;
+        }
+
+
+        /// <summary>
+        /// BasicSearchOperationOnIntArrayList         
+        /// - TC : O(n)
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        public static int BasicSearchOperationOnIntArrayList(int[] arr, int n, int x) 
+        {
+            Console.WriteLine("BasicSearchOperationOnIntArrayList");
+            Console.WriteLine("array elements length"+ arr.Length);
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine("element"+ j +"-"+ arr[j]);
+            }
+
+            for (int i = 0; i < n; i++) 
+            {
+                if (arr[i] == x)
+                {
+                    Console.WriteLine("");
+                    return i;
+                }
+            }
+            return -1;
         }
 
     }
