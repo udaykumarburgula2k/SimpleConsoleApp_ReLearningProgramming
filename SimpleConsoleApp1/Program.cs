@@ -118,12 +118,19 @@ namespace SimpleConsoleApp
             //int insertElement = 99, insertPosition = 2;
             //Console.WriteLine("Insert element " + 
             //    UsingArrayList.BasicInsertArrayItemInList(array, arrayLength, insertElement, insertPosition));
-            
+
 
             //int[] array = { 1, 5, 3, 15, 2 };
             //int deleteItem = 5;
             //Console.WriteLine("completed operation try deleted element at index#" +
             //    UsingArrayList.deleteGivenItemOperationOnArray(array, deleteItem));
+
+            //int[] array = new int[] { 10, 5, 20, 8 };
+            //int searchElement = 20;
+            //Console.WriteLine("largest element at index#" +
+            //    UsingArrayList.largestElementOfAnArray(array));
+            //Console.WriteLine("largest element at index#" +
+            //    UsingArrayList.largestElementOfAnArray_better2(array));
 
             Console.WriteLine("Execution Done!!");
         }

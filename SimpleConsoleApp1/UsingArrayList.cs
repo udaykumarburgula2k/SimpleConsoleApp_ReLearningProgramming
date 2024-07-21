@@ -248,5 +248,95 @@ namespace SimpleConsoleApp
         }
 
 
+        /// <summary>
+        /// largestElementOfAnArray
+        /// TC: O(n)
+        /// </summary>
+        /// <param name="givenArray"></param>
+        /// <param name="searchElement"></param>
+        /// <returns></returns>
+        public static int largestElementOfAnArray(int[] givenArray)
+        {
+            Console.WriteLine("largestElementOfAnArray");
+            // expected Output = 2;// index of 20  <-- array { 10, 5, 20, 8 };
+            int INDEX = -1;
+            int largest = 0;
+            if(givenArray.Length <= 0) return INDEX;
+            largest = givenArray[0];
+            for (int i = 1; i <= givenArray.Length - 1; i++)
+            {
+                if (givenArray[i] > largest) 
+                {
+                    largest = givenArray[i];
+                    INDEX = i;
+                }
+            }
+            return INDEX;
+        }
+
+
+        /// <summary>
+        /// largestElementOfAnArray_better2
+        /// TC: O(n)
+        /// </summary>
+        /// <param name="givenArray"></param>
+        /// <param name="searchElement"></param>
+        /// <returns></returns>
+        public static int largestElementOfAnArray_better2(int[] givenArray)
+        {
+            Console.WriteLine("largestElementOfAnArray_better2");
+            // expected Output = 2;// index of 20  <-- array { 10, 5, 20, 8 };
+             int result = 0;
+            if (givenArray.Length <= 0) return -1;
+            if (givenArray.Length == 1) return 0;
+
+            for (int i = 1; i <= givenArray.Length - 1; i++)
+            {
+                if (givenArray[i] > givenArray[result])
+                {
+                    result = i;
+                }
+            }
+            return result;
+        }
+
+        public static int secondElementOfAnArray_linear(int[] givenArray, int highest =2)
+        {
+            Console.WriteLine("secondElementOfAnArray");
+            // ex1: array { 10, 5, 8, 20 };  2nd largest number is 10 index = 0 is expected output.
+            // ex2: array { 20, 10, 20, 8, 12 }; expected output 4 index of 12
+            // ex3: array { 10,10,10} expected output -1 as there is no 2nd largest element
+            int result = -1, largest = 0;
+
+            /*
+             Given array { 10, 5, 8, 20 }
+             step 1: 10, 5, 8 
+             step 2: sort 10 largest, 8 2nd, 5 3rd
+             step 3: take 20 new element compare with largest, 2nd and 3rd.
+             */
+
+            for (int i = 1; i <= givenArray.Length - 1; i++)
+            {
+                if (givenArray[i] > givenArray[largest])
+                {
+                    result = largest;
+                    largest = i;
+                }
+                else if (givenArray[i] == givenArray[largest]) { 
+                    // ignore
+                }
+                else if (givenArray[i] != givenArray[largest])
+                {
+                    if (result == -1 || givenArray[i] > givenArray[result]) 
+                    {
+                        result = i;
+                    }
+                }
+
+            }
+            return -1;
+        }
+
+
     }
 }
