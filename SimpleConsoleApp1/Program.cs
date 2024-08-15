@@ -132,6 +132,32 @@ namespace SimpleConsoleApp
             //Console.WriteLine("largest element at index#" +
             //    UsingArrayList.largestElementOfAnArray_better2(array));
 
+            //Console.WriteLine("ReverseOfTheString");
+            //Console.WriteLine(UseStringOperations.ReverseOfTheString("Hi My name is Andrei"));
+
+            //Console.WriteLine("CommonLoops-----------");
+            //var watch = System.Diagnostics.Stopwatch.StartNew();
+            //Console.WriteLine("CommonLoop"+ CommonLoop.executeFunction(3,1));
+            //watch.Stop();
+            //var elapsedMs1 = watch.ElapsedMilliseconds;
+            //watch = System.Diagnostics.Stopwatch.StartNew();
+            //Console.WriteLine("CommonLoop" + CommonLoop.executeFunction(3, 2));
+            //watch.Stop();
+            //var elapsedMs2 = watch.ElapsedMilliseconds;
+            //Console.WriteLine("CommonLoop" + CommonLoop.executeFunction(3, 3));
+            //watch.Stop();
+            //var elapsedMs3 = watch.ElapsedMilliseconds;
+            //Console.WriteLine("elapsedMs1" + elapsedMs1);
+            //Console.WriteLine("elapsedMs2" + elapsedMs2);
+            //Console.WriteLine("elapsedMs3" + elapsedMs3);
+
+            //Console.WriteLine("CommonLoop" + CommonLoop.executeFunction(10, 4));
+            //Console.WriteLine("CommonLoop" + CommonLoop.executeFunction(10, 5));
+            //Console.WriteLine("CommonLoop" + CommonLoop.executeFunction(10, 6));
+
+            //Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 7));
+            //Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 8));
+            Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 9));
             Console.WriteLine("Execution Done!!");
         }
     }
