@@ -157,7 +157,21 @@ namespace SimpleConsoleApp
 
             //Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 7));
             //Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 8));
-            Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 9));
+            //Console.WriteLine("CommonLoop-" + CommonLoop.executeFunction(10, 9));
+
+            // PracticeRecursion.PracticeRecursionBasicFunction5(3);
+            // PracticeRecursion.PracticeRecursionBasicFunction6(3);
+
+            //Console.WriteLine("PracticeRecursionBasicFunction7-"+ 
+            //   PracticeRecursion.PracticeRecursionBasicFunction7(7).ToString());
+            //Console.WriteLine("PracticeRecursionBasicFunction7-" +
+            //   PracticeRecursion.PracticeRecursionBasicFunction7(8).ToString());
+
+            Console.WriteLine("PracticeRecursionBasicFunction8-" +
+               PracticeRecursion.PracticeRecursionBasicFunction8(7).ToString());
+            //Console.WriteLine("PracticeRecursionBasicFunction8-" +
+            //   PracticeRecursion.PracticeRecursionBasicFunction8(8).ToString());
+
             Console.WriteLine("Execution Done!!");
         }
     }

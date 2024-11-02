@@ -1,0 +1,32 @@
+﻿
+/*
+Recursion #1
+--------------------
+Readme: Uncomment each method to learn!!
+3
+2
+1
+1
+2
+3
+Execution Done!!
+*/
+
+Class PracticeRecursion
+{
+	 public static void PracticeRecursionBasicFunction5(int iteration5)
+        {
+            if (iteration5 == 0) return;
+            Console.WriteLine(iteration5);
+            PracticeRecursionBasicFunction5(iteration5 - 1);
+            Console.WriteLine(iteration5);
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Readme: Uncomment each method to learn!!");
+            PracticeRecursion.PracticeRecursionBasicFunction5(16);
+            Console.WriteLine("Execution Done!!");
+        }
+
+}
