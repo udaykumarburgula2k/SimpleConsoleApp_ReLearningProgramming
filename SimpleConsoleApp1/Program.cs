@@ -162,15 +162,23 @@ namespace SimpleConsoleApp
             // PracticeRecursion.PracticeRecursionBasicFunction5(3);
             // PracticeRecursion.PracticeRecursionBasicFunction6(3);
 
-            //Console.WriteLine("PracticeRecursionBasicFunction7-"+ 
-            //   PracticeRecursion.PracticeRecursionBasicFunction7(7).ToString());
-            //Console.WriteLine("PracticeRecursionBasicFunction7-" +
-            //   PracticeRecursion.PracticeRecursionBasicFunction7(8).ToString());
+            // Console.WriteLine("PracticeRecursionBasicFunction7-"+  PracticeRecursion.PracticeRecursionBasicFunction7(7).ToString());
+            // Console.WriteLine("PracticeRecursionBasicFunction7-" + PracticeRecursion.PracticeRecursionBasicFunction7(8).ToString());
+            // Console.WriteLine("PracticeRecursionBasicFunction8-" + PracticeRecursion.PracticeRecursionBasicFunction8(7).ToString());
+            // Console.WriteLine("PracticeRecursionBasicFunction8-" + PracticeRecursion.PracticeRecursionBasicFunction8(8).ToString());
 
-            Console.WriteLine("PracticeRecursionBasicFunction8-" +
-               PracticeRecursion.PracticeRecursionBasicFunction8(7).ToString());
-            //Console.WriteLine("PracticeRecursionBasicFunction8-" +
-            //   PracticeRecursion.PracticeRecursionBasicFunction8(8).ToString());
+
+            // Implement a method to find all occurrences of a substring within a given string and return their starting indices.
+            // string input = "abcabcabc";
+            // string substring = "abc";
+            // List<int> result = StringSearch.FindSubstringOccurrences(input, substring);
+            // Console.WriteLine("Indices: " + string.Join(", ", result));
+
+            // Implement a method to find all occurrences repeated string within a given string and provided the largest repeated string
+            // string input = "banana";
+            // string result = RepeatedSubstringFinder.FindLargestRepeatedSubstring(input);
+            // Console.WriteLine("Largest Repeated Substring: " + result);
+
 
             Console.WriteLine("Execution Done!!");
         }
