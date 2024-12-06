@@ -178,7 +178,9 @@ namespace SimpleConsoleApp
             // string input = "banana";
             // string result = RepeatedSubstringFinder.FindLargestRepeatedSubstring(input);
             // Console.WriteLine("Largest Repeated Substring: " + result);
-
+            Console.Write(Environment.NewLine);
+            int[] arr = new int[] { 1, 2, 3, 4 };
+            new PracticeFuncPredicateAction().ReverseArray(arr);
 
             Console.WriteLine("Execution Done!!");
         }

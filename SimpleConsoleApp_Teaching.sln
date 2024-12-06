@@ -5,6 +5,13 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsoleApp", "SimpleConsoleApp1\SimpleConsoleApp.csproj", "{8119BC81-D83A-4F39-A260-2610AE02EAAC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_GFG", "..\SimpleConsoleAppGFG\ConsoleApp_GFG\ConsoleApp_GFG.csproj", "{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{309FBF4C-86A0-4855-96F8-72DA6A16B649}"
+	ProjectSection(SolutionItems) = preProject
+		..\JavaScriptSrc\script.js = ..\JavaScriptSrc\script.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{8119BC81-D83A-4F39-A260-2610AE02EAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8119BC81-D83A-4F39-A260-2610AE02EAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8119BC81-D83A-4F39-A260-2610AE02EAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
