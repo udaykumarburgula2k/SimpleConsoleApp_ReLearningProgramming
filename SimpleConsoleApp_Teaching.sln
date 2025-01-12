@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\JavaScriptSrc\script.js = ..\JavaScriptSrc\script.js
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPracticeRealScenarios", "..\ConsoleAppPracticeRealScenarios\ConsoleAppPracticeRealScenarios.csproj", "{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0098A7A-CCFB-4E74-A550-AE6C43383FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
