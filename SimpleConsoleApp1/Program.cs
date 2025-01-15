@@ -178,9 +178,47 @@ namespace SimpleConsoleApp
             // string input = "banana";
             // string result = RepeatedSubstringFinder.FindLargestRepeatedSubstring(input);
             // Console.WriteLine("Largest Repeated Substring: " + result);
+            
             Console.Write(Environment.NewLine);
-            int[] arr = new int[] { 1, 2, 3, 4 };
-            new PracticeFuncPredicateAction().ReverseArray(arr);
+
+            // Console.WriteLine("Enter string to get ReverseOfTheString");
+            // string givenString = Console.ReadLine();
+            // givenString = givenString.Length > 0 ? givenString : "Hi My name is Andrei";
+            // Console.WriteLine("ReverseOfTheString");
+            // Console.WriteLine("ReverseOfTheString-ToCharArray");
+            // Console.WriteLine(String_Operations.ReverseString(givenString));
+            // Console.WriteLine("ReverseOfTheString-Reverse a String in C# without using Built-in method");
+            // Console.WriteLine(String_Operations.ReverseString2(givenString));
+            // Console.WriteLine("ReverseOfTheString-Using the for-each loop to reverse a string in C#");
+            // Console.WriteLine(String_Operations.ReverseString3(givenString));
+            // Console.WriteLine("ReverseOfTheString-Reverse a String Using in-built Reverse Method in C#");
+            // Console.WriteLine(String_Operations.ReverseString4(givenString));
+
+            Console.WriteLine("Enter string to get ReverseNumber eg: 14587");
+            int number = int.Parse(Console.ReadLine());
+            if (int.TryParse(Convert.ToString(number), out int n) == false) 
+            { 
+                number = 14587; 
+            }
+            Console.WriteLine("ReverseNumber : Reverse a Number with Examples");
+            Console.WriteLine(Number_Operations.ReverseNumber(number));
+
+            // Console.WriteLine("MergeSortedArrays");
+            // int[] result = String_Operations.MergeSortedArrays(
+            //    new int[] { 0, 3, 4, 31 }, new int[] { 4, 6, 30 });
+            // Console.WriteLine(result);
+
+
+            // Array_Operations
+            // https://leetcode.com/problems/two-sum/description/
+            // https://leetcode.com/problems/maximum-subarray/description/
+            // https://leetcode.com/problems/move-zeroes/description/
+            // https://leetcode.com/problems/contains-duplicate/description/
+            // https://leetcode.com/problems/rotate-array/description/
+            //Console.WriteLine("Array_2Sums");
+            //Dictionary<int, int> result = Array_Operations.TwoSum(new int[] { 2, 7, 11, 15 }, 9);
+
+
 
             Console.WriteLine("Execution Done!!");
         }
