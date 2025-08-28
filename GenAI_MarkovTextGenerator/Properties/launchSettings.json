@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GenAI_MarkovTextGenerator": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
