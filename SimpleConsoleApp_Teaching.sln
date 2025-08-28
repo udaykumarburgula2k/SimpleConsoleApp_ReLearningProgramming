@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPracticeRealScenarios", "..\ConsoleAppPracticeRealScenarios\ConsoleAppPracticeRealScenarios.csproj", "{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpPratice", "CsharpPratice\CsharpPratice.csproj", "{AC179F57-7D05-45A9-A4FA-5DB2E28DA3CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FF0FD8-C5BD-43B0-AFB0-E04F52533A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC179F57-7D05-45A9-A4FA-5DB2E28DA3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC179F57-7D05-45A9-A4FA-5DB2E28DA3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC179F57-7D05-45A9-A4FA-5DB2E28DA3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC179F57-7D05-45A9-A4FA-5DB2E28DA3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
